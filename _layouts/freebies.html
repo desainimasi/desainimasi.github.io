@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %} 
+    
+    
+    <!-- Main -->
+    <div id="main" class="alt">
+    
+      {% for post in site.posts %}
+      <div class="row">
+        <div class="6u 12u$(small)">
+          <h3>{{ post.title }}</h3>
+          
+          {% if post.youtube_url %}
+          <a href="{{ post.youtube_url }}">
+            <span class="image fit">
+              <img src="{{ site.baseurl }}/{{ post.youtube_thumbnail }}" alt="{{ post.title }}" />
+            </a>
+          </a>
+          {% endif %}
+        </div>
+        <div class="6u$ 12u$(small)">
+          <h5>Don't forget to like, share and subscribe!</h5>
+          
+          <ul class="actions">
+            {% if post.download %}
+            <li><a href="{{ post.download }}" class="button special">Download</a></li>
+            {% endif %}
+            <li><a href="https://mega.nz/aff=rPdAuZkPr-E" class="button">Mega Cloud Download</a></li>
+          </ul>
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
