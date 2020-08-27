@@ -1,49 +1,49 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
+<body>
 
-    {% include header.html %} 
-    
-    
-    <!-- Main -->
-    <div id="main" class="alt">
-      <section id="one">
-        <div class="inner">
+	{% include header.html %} 
 
-          {% for post in site.posts %}
-          <h3>{{ post.title }}</h3>
-          <div class="row">
-            <div class="6u 12u$(small)">
-              {% if post.youtube_id %}
-              <a href="https://youtu.be/{{ post.youtube_id }}">
-                <span class="image fit">
-                  <img src="http://i3.ytimg.com/vi/{{ post.youtube_id }}/maxresdefault.jpg" alt="{{ post.title }}" />
-                </a>
-              </a>
-              {% endif %}
-            </div>
-            <div class="6u$ 12u$(small)">
-              <h5>Don't forget to like, share and subscribe!</h5>
 
-              <ul class="actions">
-                {% if post.download %}
-                <li><a href="{{ post.download }}" class="button special">Download</a></li>
-                {% endif %}
-                <li><a href="https://mega.nz/aff=rPdAuZkPr-E" class="button">Mega Cloud Download</a></li>
-              </ul>
-            </div>
-          </div>
-          {% endfor %}
-          
-        </div>   
-      </div>
-    </div>
+	<!-- Main -->
+	<div id="main" class="alt">
+		<section id="one">
+			<div class="inner">
 
-    {% include footer.html %}
+				{% for post in site.posts %}
+				<div class="row">
+					<div class="6u 12u$(small)">
+						{% if post.youtube_id %}
+						<a href="https://youtu.be/{{ post.youtube_id }}" target="_blank">
+							<span class="image fit">
+								<img src="http://i3.ytimg.com/vi/{{ post.youtube_id }}/maxresdefault.jpg" alt="{{ post.title }}" />
+							</a>
+						</a>
+						{% endif %}
+					</div>
+					<div class="6u$ 12u$(small)">
+						<h3>{{ post.title }}</h3>
+						<p>Don't forget to like, share and subscribe!</p>
 
-  </body>
+						<ul class="actions">
+							{% if post.download %}
+							<li><a href="{{ post.download }}" class="button special" target="_blank">Download</a></li>
+							{% endif %}
+							<li><a href="https://mega.nz/aff=rPdAuZkPr-E" class="button" target="_blank">Mega Cloud Download</a></li>
+						</ul>
+					</div>
+				</div>
+				{% endfor %}
+
+			</div>   
+		</section>
+	</div>
+
+	{% include footer.html %}
+
+</body>
 
 </html>
