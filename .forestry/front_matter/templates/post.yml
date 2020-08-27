@@ -14,16 +14,11 @@ fields:
   config:
     required: true
   label: Title
-- name: youtube_url
+- name: youtube_id
   type: text
   config:
     required: false
-  label: YouTube URL
-- name: youtube_thumbnail
-  type: file
-  config:
-    maxSize: 64
-  label: YouTube Thumbnail
+  label: YouTube ID
 - name: download
   type: text
   config:
