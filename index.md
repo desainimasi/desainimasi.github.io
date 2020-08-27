@@ -8,6 +8,6 @@ author:
 show_tile: false
 
 ---
-We're working as a creative across **UX/UI Design**, **Branding**, **Packaging**, and we are constantly **exploring new opportunities**. 
+We're working as a creative across **UX/UI Design**, **Branding**, **Packaging**,<br>and we are constantly **exploring new opportunities**.
 
 Take a look at our work overview!
