@@ -52,5 +52,5 @@ fields:
     field: category
     value: portfolio
 pages:
+- _posts/portfolio/2020-08-27-currentcy-converter-ui-ux-design.md
 - _posts/portfolio/2020-08-27-test.md
-- _posts/portfolio/currentcy-converter-ui-ux-design.md
