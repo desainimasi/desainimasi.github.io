@@ -1,7 +1,7 @@
 ---
-layout: freebies
-title: 'Freebies'
-landing-title: 'Freebies'
+layout: portfolio
+title: 'Portfolio'
+landing-title: 'Portfolio'
 nav-menu: true
 description: null
 image: null
