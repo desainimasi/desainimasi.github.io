@@ -14,15 +14,35 @@ fields:
   config:
     required: true
   label: Title
+- name: category
+  type: select
+  default: freebies
+  config:
+    required: true
+    options:
+    - freebies
+    - portfolio
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Category
 - name: youtube_id
   type: text
   config:
     required: false
   label: YouTube ID
+  showOnly:
+    field: category
+    value: freebies
 - name: download
   type: text
   config:
     required: false
   label: Download URL
+  showOnly:
+    field: category
+    value: freebies
 pages:
 - _posts/portfolio/2020-08-27-test.md
