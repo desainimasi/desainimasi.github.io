@@ -1,7 +1,7 @@
 ---
 layout: freebies
 title: FREE Photoshop Mockup - Front T-shirt
-youtube_id: agGVFC8df6I
-download: https://ouo.io/ASAouE
+youtube_id: fEYCv0GDb4s
+download: https://ouo.io/2wQI3o
 
 ---
