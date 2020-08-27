@@ -3,7 +3,7 @@ title: Desainimasi
 subtitle: ''
 email: ''
 description: Experience design  for digital products, services & companies going digital.
-baseurl: "/"
+baseurl: ""
 url: "https://desainimasi.github.io"
 permalink: /:categories/:title/
 author: 
