@@ -44,5 +44,12 @@ fields:
   showOnly:
     field: category
     value: freebies
+- name: gallery
+  type: image_gallery
+  config: {}
+  label: Gallery
+  showOnly:
+    field: category
+    value: portfolio
 pages:
 - _posts/portfolio/2020-08-27-test.md
