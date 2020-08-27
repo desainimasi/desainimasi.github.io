@@ -1,5 +1,5 @@
 ---
-layout: allposts
+layout: freebies
 title: 'Freebies'
 landing-title: 'Freebies'
 nav-menu: true
