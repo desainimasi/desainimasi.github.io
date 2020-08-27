@@ -14,10 +14,9 @@
         <div class="inner">
 
           {% for post in site.posts %}
+          <h3>{{ post.title }}</h3>
           <div class="row">
             <div class="6u 12u$(small)">
-              <h3>{{ post.title }}</h3>
-
               {% if post.youtube_id %}
               <a href="https://youtu.be/{{ post.youtube_id }}">
                 <span class="image fit">
