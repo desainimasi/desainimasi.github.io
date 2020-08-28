@@ -5,6 +5,8 @@ title: Art & Illustration
 youtube_id: ''
 download: ''
 gallery:
-- "/uploads/project.png"
+- "/uploads/jokowi-project.png"
+- "/uploads/habibie-project.png"
+- "/uploads/jrx-project.png"
 
 ---
