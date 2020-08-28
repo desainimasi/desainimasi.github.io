@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: portfolio
 category: portfolio
 title: Art & Illustration
 youtube_id: ''
